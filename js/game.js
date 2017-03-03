@@ -92,10 +92,6 @@ $(document).ready(function(){
       ctx.fillStyle = "Red";
       ctx.fillText("Game Over", w/3, h/2);
       beep();
-      sleep(10000);
-      beep();
-      sleep(10000);
-      beep();
       clearInterval(game_loop);
       ctx.font = "18px Arial";
     }
